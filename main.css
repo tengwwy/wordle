@@ -22,8 +22,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.changeColor{
+    animation: check 0.5s forwards;
 }
 
 h1{
     font-size: 40px;
+}
+
+@keyframes check {
+    from {background-color: rgb(61, 61, 61);}
+    to {background-color: rgb(153, 153, 153);}
 }
