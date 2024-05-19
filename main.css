@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.gameBoard{
+    display: grid;
+    grid-template-columns: repeat(5, 85px);
+    grid-template-rows: repeat(6, 85px);
+    gap: 5px;
+}
+
+.letter{
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 61);
+    font-family: Helvetica;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+}
